@@ -67,7 +67,7 @@ h1 {
   background-color: lightblue;    
   text-align: center;
   width: 750px;
-  height: 300px;
+  height: 400px;
   padding: 30px;
   margin: 15px auto;
   }
@@ -86,15 +86,29 @@ h1 {
 
   h2 {
 
-text-align: centet;
+text-align: center;
 color:rgb(0, 129, 0);
+font-family: 'Titillium Web', sans-serif;
+padding: 5px;
+
 
   }
 
   h3 {
 
 text-align: center;
-    color:maroon
+    color:maroon;
+    font-family: 'Signika Negative', sans-serif;
+  }
+
+  h4 {
+
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    color:royalblue;
+    padding: 5px;
+
+
   }
 
   .media {
@@ -109,52 +123,25 @@ margin: 15px auto;
 
   }
 
-  /* Center the loader */
-#loader {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1;
-  width: 120px;
-  height: 120px;
-  margin: -76px 0 0 -76px;
-  border: 16px solid #006eff;
-  border-radius: 50%;
-  border-top: 16px solid #9b0202;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
+  .about {
 
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
+    border: 6px outset rgb(22, 136, 156);
+  background-color:#03009c;
+  width: 1000px;
+  height: 400;
+  padding: 30px;
+  margin: 15px auto;
 
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+  }
 
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
 
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 } 
-  to { bottom:0px; opacity:1 }
-}
+  .about {
 
-@keyframes animatebottom { 
-  from{ bottom:-100px; opacity:0 } 
-  to{ bottom:0; opacity:1 }
-}
+    border: 6px outset rgb(255, 80, 80);
+  background-color:#00ff80e5;
+  width: 1000px;
+  height: 400;
+  padding: 30px;
+  margin: 15px auto;
 
-#myDiv {
-  display: none;
-  text-align: center;
-}
+  }
