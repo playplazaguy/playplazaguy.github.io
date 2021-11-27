@@ -145,3 +145,28 @@ margin: 15px auto;
   margin: 15px auto;
 
   }
+
+
+  .blog {
+
+    border: 5px outset red;
+    background-color: lightblue;    
+    text-align: center;
+    width: 750px;
+    height: 400px;
+    padding: 30px;
+    margin: 15px auto;
+
+  }
+
+  .wip {
+
+    border: 5px outset yellow;
+  background-color: rgb(25, 0, 255);    
+  text-align: center;
+  width: 1000px;
+  height: 250px;
+  padding: 30px;
+  margin: 15px auto;
+
+  }
