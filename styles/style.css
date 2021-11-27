@@ -149,13 +149,13 @@ margin: 15px auto;
 
   .blog {
 
-    border: 5px outset red;
-    background-color: lightblue;    
-    text-align: center;
-    width: 750px;
-    height: 400px;
-    padding: 30px;
-    margin: 15px auto;
+    border: 6px outset rgb(41, 0, 155);
+  background-color:#ff006296;
+  width: 1250px;
+  height: 2500px;
+  padding: 30px;
+  margin: 15px auto;
+    
 
   }
 
@@ -168,5 +168,27 @@ margin: 15px auto;
   height: 250px;
   padding: 30px;
   margin: 15px auto;
+
+  }
+
+  .blog > h1 {
+
+    text-align: center;
+    color:rgb(0, 255, 115);
+  
+  }
+  
+  .blog > h2 {
+
+    text-align: right;
+    color:rgb(0, 204, 187);
+  
+  }
+
+  a > h2 {
+
+    text-align: right;
+    color:rgb(0, 204, 187);
+  
 
   }
